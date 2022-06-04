@@ -1,0 +1,21 @@
+{
+    "name": "OneReview — One Review for everything!",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "This chrome extension lets you write reviews on any page of the internet",
+    "homepage_url": "http://onereview.xyz",
+    "background": {
+      "scripts": [
+        "background.js"
+      ],
+      "persistent": true
+    },
+    "browser_action": {
+      "default_title": "Add One Review to all pages!"
+    },
+    "permissions": [
+      "https://*/*",
+      "http://*/*",
+      "tabs"
+    ]
+  }
