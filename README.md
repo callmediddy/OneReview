@@ -96,6 +96,27 @@ The following diagram goes over the high-level architecture of the 1Review ecosy
 </p>
 
 We recommend using the live version of the app: <a target="_blank" href="https://yet-another-one-review-cv6p8n0hg-callmediddy.vercel.app/">Click to enter the Dapp!</a>
+
+
+## Challenges
+- Using GraphQL, and forming a mental model of a subgraph API
+- Working with Next.js and Typescript. Our team was not super familiar with the syntax at the beginning of the hackathon
+- Working with multiple open-source projects and version controlling
+- Spam protection in a decentralized social network
+- Deploying to the cloud with Vercel
+
+## Accomplishments that we are proud of
+- Achieving our MVP design over the course of this hackathon
+- Building a subgraph, and using a The Graph subgraph for an important feature in our dApp
+- Seamless connection of multiple wallets.
+- Seamless creation of profiles on the platform
+- Seamless review writing flow
+
+## What we learned
+- Decentralized social can help onboard the next 100M Web3 users
+- Subgraphs are awesome once you understand how to play with them!
+- Many web3 developers would like a platform that allows them to collect product feedback and iterate quicker
+- Good behavior can be enforced on a platform through token distribution
 ## Setup and installation
 
 NodeJS v16.0 or higher is required to build this project.
