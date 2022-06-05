@@ -1,25 +1,25 @@
-<!-- ![made-with-python](https://img.shields.io/badge/Made%20with-Python3-brightgreen) -->
-
-<!-- LOGO -->
-<br />
 <h1>
 <p align="center">
   <img src="https://raw.githubusercontent.com/callmediddy/OneReview/main/assets/logo_white.png" alt="Logo">
   <br>
 </h1>
   <p align="center">
+    <a target="_blank" href="https://yet-another-one-review-cv6p8n0hg-callmediddy.vercel.app/">1Review: Click to view project in action</a><br/>
     Decentralized Reviews for Decentralized Platforms
     <br />
     </p>
 </p>
 <p align="center">
-  <a href="#the-bounties">Relevant Bounties</a> •
+  <a href="#relevant-bounties">Relevant Bounties</a> •
   <a href="#the-project">The Project</a> •
+  <a href="#the-problem">The Problem</a> •
+  <a href="#our-solution">Our Solution</a> •
+  <a href="#challenges">Challenges</a> •
+  <a href="#learnings">Learnings</a> •
   <a href="#usage">How To Use</a> •
-  <a href="#examples">Examples</a> •
-  <a href="#best-practice">Best Practice</a> •
-  <a href="#credits">Credits</a> •
-  <a href="examples.md">More Examples</a>
+  <a href="#examples">What's Next?</a> •
+  <a href="#the-team">Team</a>
+
 </p>
 
 <p align="center">
@@ -83,5 +83,14 @@ yarn dev        // builds and runs dev app on Matic Testnet
 ```
 
 ## What's Next?
+- Project & Core Team has received Lens Grant from AAVE to continue development (on Friday)
+- Making features more robust. Adding trust & safety, and spam protection by design
+- Marketing and outreach to onboard Web3 projects and users
+- Goal: Have a 100k DAUs by the end of the year
+- Reach: Have a 10 projects initiate bounties on 1Review
 
 ## The Team
+- Yige (Kristina) Liu (Meta, Stanford MS CS '22)
+- Hongyu Ren (Stanford PhD. CS GraphML '23)
+- Kun Guo (Stanford MS MS&E '23)
+- Aditya (Diddy) Khandelwal (TikTok, Stanford BS CS '20)
