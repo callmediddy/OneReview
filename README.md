@@ -56,6 +56,16 @@ Web3 needs better.
 
 The following diagram goes over the high-level architecture of the 1Review ecosystem:
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/callmediddy/OneReview/main/assets/one_review_project_board.png" alt="Logo">
+  <br>
+</h1>
+  <p align="center">
+    1Review Dapp allows users to read and write feedback for Web3 applications
+    <br />
+    </p>
+</p>
+
 ## Setup and installation
 
 NodeJS v16.0 or higher is required to build this project.
