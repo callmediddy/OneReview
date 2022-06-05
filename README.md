@@ -69,7 +69,16 @@ The following diagram goes over the high-level architecture of the 1Review ecosy
   <p align="center">
     1Review Dapp allows users to read and write feedback for Web3
     <br />
-    </p>
+  
+  <a target="_blank" href="https://yet-another-one-review-cv6p8n0hg-callmediddy.vercel.app/">Click to enter the Dapp!</a><br/>
+
+  Here are some screenshots of how it works:
+
+
+  </p>
+  
+
+
 </p>
 
 ## Setup and installation
