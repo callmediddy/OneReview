@@ -13,7 +13,8 @@
     </p>
 </p>
 <p align="center">
-  <a href="#about-the-project">About The Project</a> •
+  <a href="#the-bounties">Relevant Bounties</a> •
+  <a href="#the-project">The Project</a> •
   <a href="#usage">How To Use</a> •
   <a href="#examples">Examples</a> •
   <a href="#best-practice">Best Practice</a> •
@@ -24,68 +25,31 @@
 <p align="center">
   
 <!-- ![screenshot](img/clip.gif) -->
-</p>                                                                                                                             
-                                                                                                                                                      
-## About The Project
-1Review is a new way of leaving reviews for
+</p>
 
-FastColabCopy is a Python script for parallel (multi-threading) copying of files between two locations. Currently developed for Google-Drive to Google-Drive transfers using Google-Colab. This script frequently achieves 10-50x speed improvements when copying numerous small files.
+## The Project
 
-## Importing
+**1Review** is a fully decentralized, trustless Web3 platform for product feedback and reviews built for **Web3 Organizations**. Users can write reviews, provide feedback and earn bounties for behavior that benefits Web3 projects and infrastructure. All data on the platform is tamper-proof and accessible to the entire internet through the Lens Protocol Subgraph.
 
-Import from GitHub:
+The explosive growth of crypto projects, DAOs and financial products in the last few months has outpaced the growth of Web2 platforms that people are still using for product discovery. 1Review aims to solve this problem by providing a platform with fair data ownership and accessibility primitives. With 1Review, recieving and providing product feedback is
 
-```py
-!wget https://raw.githubusercontent.com/L0garithmic/fastcolabcopy/main/fastcopy.py
-import fastcopy
+## The Problem
+
+Web2 companies like Google, Amazon and Yelp collect user feedback for products and businesses on their platform and use this information to build their own products. However, this information is not made readily available to businesses that need it to build better products. Moreover, users have to navigate from one platform to another to read and analyze product reviews.
+
+Web3 needs better.
+
+## Setup and installation
+
+NodeJS v16.0 or higher is required to build this project.
+
+```
+nvm use 16.5.0  // if you have NVM installed
+yarn            // installs all packages
+yarn dev        // builds and runs dev app on Matic Testnet
 ```
 
-Import from Google Drive:
-
-```py
-!cp /gdrive/MyDrive/fastcopy.py .
-import fastcopy
-```
-
-## Usage
-
-```sh
-usage: fast-copy.py [-h HELP] source destination [-d DELETE] [-s SYNC] [-r REPLACE]
-
-optional arguments:
-  -h --help            show this help message and exit
-  source                the drive you are copying from
-  destination           the drive you are copying to
-  -d --delete           delete the source files after copy
-  -s --sync             delete files in destination if not found in source (do not use, if using with rsync)
-  -r --replace          replace files if they exist
-  -t --thread           set the amount of parallel threads used
-  -l --size-limit       set max size of files copied (supports gb, mb, kb) eg 1.5gb
-```
-
-The `source` and `destination` fields are required. Everything else is optional.
-
-## Examples
-
-```py
-from google.colab import drive
-drive.mount('/gdrive', force_remount=False)
-import os
-!wget -q https://raw.githubusercontent.com/L0garithmic/fastcolabcopy/main/fastcopy.py
-import fastcopy
-!python fastcopy.py /gdrive/Shareddrives/Source/. /gdrive/Shareddrives/Destination --thread 20 --size-limit 400mb
-```
-
-If you want to see copy execution time:
-
-```mod
-!pip install -q ipython-autotime
-%load_ext autotime
-```
-
-Check out <a href="examples.md">examples.md</a> for some more examples.
-
-## Best Practice
+## What's Next?
 
 Colab has wildly varying transfer speeds, because of this, the best we can offer are suggestions:
 
@@ -94,7 +58,7 @@ Colab has wildly varying transfer speeds, because of this, the best we can offer
 - For files that are 100MB+, it is best to use 2 threads. It is still faster then rsync.
 - Currently `--sync` breaks if rsync is ran after. If you are mirroring drives. Disable `--sync` and use the rsync's `--delete` function.
 
-## Credits
+## The Team
 
 - Credit to [ikonikon](https://github.com/ikonikon/fast-copy) for the base multi-threading code.
 - Thanks to [@Ostokhoon](https://www.freelancer.com/u/Ostokhoon) for ALL argument and folder hierarchy functionality.
