@@ -47,6 +47,15 @@ Web2 companies like Google, Amazon and Yelp collect user feedback for products a
 
 Web3 needs better.
 
+## Our Solution
+
+1Review exposes two front-end applications:
+
+- Chrome Extension: To easily navigate from product pages to the 1Review Dapp for browsing previous feedback and leaving new reviews
+- A Dapp: To read reviews, create a 1Review profile, log into profile, write feedback and participate in bounties
+
+The following diagram goes over the high-level architecture of the 1Review ecosystem:
+
 ## Setup and installation
 
 NodeJS v16.0 or higher is required to build this project.
