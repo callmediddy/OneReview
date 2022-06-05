@@ -128,8 +128,8 @@ yarn dev        // builds and runs dev app on Matic Testnet
 ```
 
 ## What's Next?
-- Project & Core Team has received Lens Grant from AAVE to continue development (on Friday)
-- Making features more robust. Adding trust & safety, and spam protection by design
+- Project & Core Team has received Lens Grant from AAVE to start and to continue development (on Friday)
+- Making features more robust. Adding trust & safety, and spam protection by incentive design
 - Marketing and outreach to onboard Web3 projects and users
 - Goal: Have a 100k DAUs by the end of the year
 - Reach: Have a 10 projects initiate bounties on 1Review
