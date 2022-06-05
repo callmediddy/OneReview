@@ -27,6 +27,14 @@
 <!-- ![screenshot](img/clip.gif) -->
 </p>
 
+## Relevant Bounties
+
+| **Sponsor**  | **Bounty**          | **Reason**                                                                                                                                                                                                              |
+| ------------ | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Polygon**  | Public Goods Track  | 1Review leverages Lens Protocol deployed on the Polygon network to solve the issue of collecting feedback and reviews for Web3 projects                                                                                 |
+| **CELO**     | Community Commerce  | 1Review aims to create an ecosystem of businesses who get paid in bounties to review products and provide feedback                                                                                                      |
+| **Filecoin** | Social Good Warrior | 1Review aims to reduce misinformation in online reviews by providing an incentive-based model to reviews. Spam reduction and elimination is designed by default because each user has to pay gas fees to write reviews. |
+
 ## The Project
 
 **1Review** is a fully decentralized, trustless Web3 platform for product feedback and reviews built for **Web3 Organizations**. Users can write reviews, provide feedback and earn bounties for behavior that benefits Web3 projects and infrastructure. All data on the platform is tamper-proof and accessible to the entire internet through the Lens Protocol Subgraph.
