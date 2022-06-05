@@ -69,18 +69,33 @@ The following diagram goes over the high-level architecture of the 1Review ecosy
   <p align="center">
     1Review Dapp allows users to read and write feedback for Web3
     <br />
+    <a target="_blank" href="https://yet-another-one-review-cv6p8n0hg-callmediddy.vercel.app/">Click to enter the Dapp!</a><br/>
   
-  <a target="_blank" href="https://yet-another-one-review-cv6p8n0hg-callmediddy.vercel.app/">Click to enter the Dapp!</a><br/>
+  </p>
 
   Here are some screenshots of how it works:
+  <img src="https://raw.githubusercontent.com/callmediddy/OneReview/main/assets/chrome_extension.png" alt="Logo">
+  Users of any Web3 project can easily navigate from project pages to 1Review page through the chrome extension enabled button
+
+  <img src="https://raw.githubusercontent.com/callmediddy/OneReview/main/assets/list_view.png">
+  On 1Review, users (especially ones new to Web3) can discover new and trending projects directly from the homepage
 
 
-  </p>
+  <img src="https://raw.githubusercontent.com/callmediddy/OneReview/main/assets/wallet_selection.png">
+  In order to view more information, users can log in using one of three wallet options:
+  <li>Coinbase
+  <li>Metamask
+  <li>WalletConnect
   
+  <img src="https://raw.githubusercontent.com/callmediddy/OneReview/main/assets/review_page.png">
+  Once logged in, users can view and post feedbacks for the projects they are most interested in.
 
+  <img src="https://raw.githubusercontent.com/callmediddy/OneReview/main/assets/bounty_selection.png">
+  Users can choose to participate in ongoing bounties by providing high quality feedback that others users can comment on or heart react to.
 
 </p>
 
+We recommend using the live version of the app: <a target="_blank" href="https://yet-another-one-review-cv6p8n0hg-callmediddy.vercel.app/">Click to enter the Dapp!</a>
 ## Setup and installation
 
 NodeJS v16.0 or higher is required to build this project.
