@@ -51,14 +51,4 @@ yarn dev        // builds and runs dev app on Matic Testnet
 
 ## What's Next?
 
-Colab has wildly varying transfer speeds, because of this, the best we can offer are suggestions:
-
-- For large groups of medium/small files, 15-40 threads seems to work best.
-- For 50+ files with significantly varying sizes, try 2 sequentially copies. `-t 15 -l 400` then `-t 2`
-- For files that are 100MB+, it is best to use 2 threads. It is still faster then rsync.
-- Currently `--sync` breaks if rsync is ran after. If you are mirroring drives. Disable `--sync` and use the rsync's `--delete` function.
-
 ## The Team
-
-- Credit to [ikonikon](https://github.com/ikonikon/fast-copy) for the base multi-threading code.
-- Thanks to [@Ostokhoon](https://www.freelancer.com/u/Ostokhoon) for ALL argument and folder hierarchy functionality.
